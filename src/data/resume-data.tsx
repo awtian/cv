@@ -19,6 +19,9 @@ import {
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
+// First full-time engineering role (Hacktiv8 Indonesia)
+const CAREER_START_YEAR = 2018;
+
 export const RESUME_DATA = {
   name: "Awtian Akbar",
   initials: "AA",
@@ -26,8 +29,10 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/surabaya",
   about:
     "A witty problem solver first, Full Stack Engineer afterward, i love building useful products",
-  summary:
-    "A Full Stack Software Engineer with 8 years of experience. I've worked as an engineer on many different industries including but not limited to Education, Fintech, and FnB. I'm a natural problem solver and have short experience leading an engineering team.",
+  // Getter so the year count is recomputed on each render, not frozen at module load
+  get summary() {
+    return `A Full Stack Software Engineer with ${new Date().getFullYear() - CAREER_START_YEAR} years of experience. I've worked as an engineer on many different industries including but not limited to Education, Fintech, and FnB. I'm a natural problem solver and have short experience leading an engineering team.`;
+  },
   avatarUrl: "https://avatars.githubusercontent.com/u/33123999?v=4",
   personalWebsiteUrl: "https://awtian.com",
   contact: {
