@@ -79,7 +79,7 @@ export const RESUME_DATA = {
       start: "2025",
       end: "Present",
       description:
-        "I'm working as a Full-stack Software Engineer at Podifi, a US-based company, working remotely across both the backend and the frontend.",
+        "I'm working as a Full-stack Software Engineer at Podifi, a US-based company. I contribute to building AI agentic systems - from Slack-based AI agents using LangGraph and MCP, to the backend services that orchestrate AI coding agents. I also work on the NestJS APIs and Next.js dashboards behind these products.",
     },
     {
       company: "Wallex",
