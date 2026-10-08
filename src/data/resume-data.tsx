@@ -27,7 +27,7 @@ export const RESUME_DATA = {
   about:
     "A witty problem solver first, Full Stack Engineer afterward, i love building useful products",
   summary:
-    "A Full Stack Software Engineer with 5 years of experiences. I've worked as an engineer on many different industries including but not limited to Education, Fintech, and FnB. I'm a natural problem solver and have short experience leading an engineering team.",
+    "A Full Stack Software Engineer with 8 years of experience. I've worked as an engineer on many different industries including but not limited to Education, Fintech, and FnB. I'm a natural problem solver and have short experience leading an engineering team.",
   avatarUrl: "https://avatars.githubusercontent.com/u/33123999?v=4",
   personalWebsiteUrl: "https://awtian.com",
   contact: {
@@ -67,14 +67,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Podifi",
+      link: "https://podifi.ai",
+      badges: ["Remote"],
+      title: "Software Engineer",
+      start: "2025",
+      end: "Present",
+      description:
+        "I'm working as a Full-stack Software Engineer at Podifi, a US-based company, working remotely across both the backend and the frontend.",
+    },
+    {
       company: "Wallex",
       link: "https://wallex.asia",
       badges: ["Remote"],
       title: "Senior Full Stack Developer",
       start: "2023",
-      end: "Present",
+      end: "2025",
       description:
-        "I'm working as a Senior Full-stack Engineer at Wallex. Its a company that ease the process of doing an international transfer. I'm working mostly on the Collection Request feature - which is a feature for our clients to be able to send an payable invoice to our customer. For now, our clients for this product is mostly foreign hospitals receiving payments from Indonesian customers. I code both on the backend and the frontend. It's ExpressJS on the backend and ReactJS on the frontend",
+        "I worked as a Senior Full-stack Engineer at Wallex. It's a company that eases the process of doing an international transfer. I worked mostly on the Collection Request feature - which is a feature for our clients to be able to send a payable invoice to their customers. Our clients for this product were mostly foreign hospitals receiving payments from Indonesian customers. I coded both on the backend and the frontend. It's ExpressJS on the backend and ReactJS on the frontend",
     },
     {
       company: "BowerBird",
